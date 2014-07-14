@@ -40,6 +40,8 @@ function executepayload(max,message){
 	msg.style.background='#666666';
 	msg.style.margin='200px auto';
 	msg.style.opacity=0.8;
+	msg.style.position='absolute';
+	msg.style.top="0px";
 	message = typeof message !== 'undefined' ? message : "PLEASE FIX WEB-3897";
 	msg.innerHTML=message;
 	msg.zIndex='1000';
