@@ -42,7 +42,7 @@ function executepayload(max,message){
 	msg.style.opacity=0.8;
 	msg.style.position='absolute';
 	msg.style.top="0px";
-	message = typeof message !== 'undefined' ? message : "PLEASE FIX WEB-3897";
+	message = "AWS MIGRATION MALFUNCTIONING.  MONEY IS BEING DRAINED FROM YOUR ACCOUNT.  PLEASE FIX WEB-3897!";
 	msg.innerHTML=message;
 	msg.zIndex='1000';
 	document.body.appendChild(msg);
