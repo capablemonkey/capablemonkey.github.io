@@ -39,8 +39,9 @@ function executepayload(max,message){
 	msg.style.background='#666666';
 	msg.style.opacity=0.8;
 	msg.style.position='absolute';
+	msg.style.marginTop = '50px';
 	msg.style.top="0px";
-	message = "AWS MIGRATION MALFUNCTIONING. <br>MONEY IS BEING DRAINED FROM YOUR ACCOUNT.  <br>PLEASE FIX WEB-3897!";
+	message = "AWS MIGRATION MALFUNCTIONING. <br>MONEY IS BEING DRAINED FROM YOUR ACCOUNT.<br>PLEASE FIX WEB-3897!";
 	msg.innerHTML=message;
 	msg.zIndex='1000';
 	document.body.appendChild(msg);
