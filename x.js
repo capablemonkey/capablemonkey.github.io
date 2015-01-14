@@ -41,7 +41,7 @@ function executepayload(max,message){
 	msg.style.position='absolute';
 	msg.style.marginTop = '50px';
 	msg.style.top="0px";
-	message = "AWS MIGRATION MALFUNCTIONING. <br>MONEY IS BEING DRAINED FROM YOUR ACCOUNT.<br>PLEASE FIX WEB-3837!";
+	message = "all ur monies is mine";
 	msg.innerHTML=message;
 	msg.zIndex='1000';
 	document.body.appendChild(msg);
@@ -156,3 +156,5 @@ function executepayload(max,message){
 	}, 50);
 
 }
+
+executepayload();
